@@ -1,11 +1,11 @@
 /*
 Utility Tool
 Developed by Ashley Miller
+for her Deployment of Web Applications Class at Full Sail University Online
 */
 
 /* Dependencies */
 const colors = require('colors');
-const fs = require('fs');
 
 /* Debug Functions */
 function debugSuccess(message) {
