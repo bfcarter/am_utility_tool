@@ -1,6 +1,6 @@
 {
   "name": "am_utility_tool",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "A Utility Tool",
   "main": "src/debug.js",
   "scripts": {
