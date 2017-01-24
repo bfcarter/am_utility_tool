@@ -24,3 +24,14 @@ debug.debugError('The user was not successfully redirected to the long URL becau
 To turn debugging on, in your CLI, change your current directory to your app's directory if it's not already your current directory, and type `DEBUG=true` before you start your server.
 
 Now if your route errors out, you will get an error message in your CLI that says, *The user was not successfully redirected to the long URL because of the following error: [error]*.
+
+## Version Bumper
+To execute the version bumper from you command line, use:
+~~~~
+node vbumper.js -v { major | minor | patch } -n { Version_number }
+~~~~
+
+As example if you want to update the major version to 2.
+~~~~
+node vbumper.js -v major -n 2
+~~~~
