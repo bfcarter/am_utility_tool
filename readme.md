@@ -25,13 +25,14 @@ To turn debugging on, in your CLI, change your current directory to your app's d
 
 Now if your route errors out, you will get an error message in your CLI that says, *The user was not successfully redirected to the long URL because of the following error: [error]*.
 
-## Version Bumper
-To execute the version bumper from you command line, use:
-~~~~
-node vbumper.js -v { major | minor | patch } -n { Version_number }
-~~~~
+###:cherry_blossom: Version Bumping :cherry_blossom:
 
-As example if you want to update the major version to 2.
-~~~~
+To bump your version, in your CLI, type
+```
+node vbumper.js -v [major, minor, or patch] -n [version number]
+```
+
+For example, if you want to bump the major version to 2, in your CLI, type
+```
 node vbumper.js -v major -n 2
-~~~~
+```
